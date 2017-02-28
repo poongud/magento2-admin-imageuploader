@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-2columns-left" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <update handle="editor"/>
+    <body>
+       <referenceContainer name="left">
+	    <block class="Ameex\Photos\Block\Adminhtml\Photos\Edit\Tabs"
+                name="ameex_seller_details.edit.tabs"/>
+        </referenceContainer>
+        <referenceContainer name="content">
+            <block class="Ameex\Photos\Block\Adminhtml\Seller\Edit" name="photos_edit">
+	     </block>
+        </referenceContainer>
+    </body>
+</page>
